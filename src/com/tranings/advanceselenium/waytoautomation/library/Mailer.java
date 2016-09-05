@@ -18,10 +18,11 @@ import javax.mail.internet.MimeMultipart;
 public class Mailer {	
 	public static void sendReportByGMail()
 	     {
-
+		System.out.println("Inside send report by GMAIL function");
 	      // Recipient's email ID needs to be mentioned.
-		String from="2016.gudda@gmail.com";
-		String pass="password123";
+		//account created in may :)
+		String from="2006.gudda@gmail.com";
+		String pass="Password123";
 		String to="90.shalini@gmail.com";
 		
 	      // Sender's email ID needs to be mentioned
@@ -70,7 +71,7 @@ public class Mailer {
 	         String filename = ".\\test-output\\emailable-report.html";
 	         DataSource source = new FileDataSource(filename);
 	         messageBodyPart.setDataHandler(new DataHandler(source));
-	         messageBodyPart.setFileName("TestNG Report");
+	         messageBodyPart.setFileName("TestNG Report.html");
 	         multipart.addBodyPart(messageBodyPart);
 
 	         // Send the complete message parts

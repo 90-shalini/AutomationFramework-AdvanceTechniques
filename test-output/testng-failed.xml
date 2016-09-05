@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Way To Automation]">
-  <test name="Simple Web Elements(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Way To Automation]" parallel="classes">
+  <test name="Way To Automation Simple Techniques(failed)" parallel="classes">
     <classes>
       <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements">
         <methods>
+          <include name="testToolTip"/>
           <include name="testSelectables"/>
-          <include name="testAlert"/>
+          <include name="closeProject"/>
           <include name="initialize"/>
           <include name="testDynamicElements"/>
-          <include name="ToolTipTesting"/>
-          <include name="testDatePicker"/>
+          <include name="sendMail"/>
         </methods>
       </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements -->
+      <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements">
+        <methods>
+          <include name="closeProject"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements -->
     </classes>
-  </test> <!-- Simple Web Elements(failed) -->
+  </test> <!-- Way To Automation Simple Techniques(failed) -->
 </suite> <!-- Failed suite [Way To Automation] -->
