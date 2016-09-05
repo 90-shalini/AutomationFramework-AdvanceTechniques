@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Way To Automation]">
+  <test name="Simple Web Elements(failed)">
+    <classes>
+      <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements">
+        <methods>
+          <include name="testSelectables"/>
+          <include name="testAlert"/>
+          <include name="initialize"/>
+          <include name="testDynamicElements"/>
+          <include name="ToolTipTesting"/>
+          <include name="testDatePicker"/>
+        </methods>
+      </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements -->
+    </classes>
+  </test> <!-- Simple Web Elements(failed) -->
+</suite> <!-- Failed suite [Way To Automation] -->

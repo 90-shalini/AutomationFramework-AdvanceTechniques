@@ -1,0 +1,2 @@
+WebDriver driver =new Init().startBrowser();WebElement tab = driver.findElement(By.id("example-1-tab-1"));
+		System.out.println(tab.isDisplayed());

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Way To Automation">
+	<test name="Simple Web Elements">
+	<classes>		
+			<class
+				name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
