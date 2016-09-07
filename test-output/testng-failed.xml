@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Way To Automation]" parallel="classes">
+  <listeners>
+    <listener class-name="com.tranings.advanceselenium.waytoautomation.library.CustomizedTestNGReports"/>
+  </listeners>
   <test name="Way To Automation Simple Techniques(failed)" parallel="classes">
     <classes>
       <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements">
@@ -11,6 +14,7 @@
           <include name="initialize"/>
           <include name="testDynamicElements"/>
           <include name="sendMail"/>
+          <include name="testDatePicker"/>
         </methods>
       </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements -->
       <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements">

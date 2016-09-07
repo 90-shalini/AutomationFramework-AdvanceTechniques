@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Way To Automation" parallel="classes" thread-count="2"
-	verbose="3">
+<suite name="Way To Automation" > 
+	<listeners>
+		<listener class-name="com.tranings.advanceselenium.waytoautomation.library.CustomizedTestNGReports" />
+	</listeners>
 	<test name="Way To Automation Simple Techniques">
 		<classes>
 			<class
 				name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
-			<class
-				name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements" />
-
 		</classes>
 	</test>
 	<!-- Test -->

@@ -1,55 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Way To Automation" duration-ms="131144" started-at="2016-09-05T11:45:08Z" finished-at="2016-09-05T11:47:19Z">
+  <suite name="Way To Automation" duration-ms="119069" started-at="2016-09-07T11:10:19Z" finished-at="2016-09-07T11:12:18Z">
     <groups>
     </groups>
-    <test name="Way To Automation Simple Techniques" duration-ms="131144" started-at="2016-09-05T11:45:08Z" finished-at="2016-09-05T11:47:19Z">
+    <test name="Way To Automation Simple Techniques" duration-ms="119069" started-at="2016-09-07T11:10:19Z" finished-at="2016-09-07T11:12:18Z">
       <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@369f73a2]" name="initialize" is-config="true" duration-ms="83568" started-at="2016-09-05T17:15:08Z" finished-at="2016-09-05T17:16:31Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="initialize" is-config="true" duration-ms="73507" started-at="2016-09-07T16:40:19Z" finished-at="2016-09-07T16:41:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testDatePicker()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@369f73a2]" name="testDatePicker" duration-ms="30152" started-at="2016-09-05T17:16:31Z" finished-at="2016-09-05T17:17:01Z">
+        <test-method status="PASS" signature="testDatePicker()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="testDatePicker" duration-ms="28341" started-at="2016-09-07T16:41:33Z" finished-at="2016-09-07T16:42:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDatePicker -->
-        <test-method status="PASS" signature="testDynamicElements()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@369f73a2]" name="testDynamicElements" duration-ms="5760" started-at="2016-09-05T17:17:01Z" finished-at="2016-09-05T17:17:07Z">
+        <test-method status="PASS" signature="testDynamicElements()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="testDynamicElements" duration-ms="5446" started-at="2016-09-07T16:42:01Z" finished-at="2016-09-07T16:42:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDynamicElements -->
-        <test-method status="PASS" signature="testSelectables()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@369f73a2]" name="testSelectables" duration-ms="6064" started-at="2016-09-05T17:17:07Z" finished-at="2016-09-05T17:17:13Z">
+        <test-method status="PASS" signature="testSelectables()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="testSelectables" duration-ms="5650" started-at="2016-09-07T16:42:06Z" finished-at="2016-09-07T16:42:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectables -->
-        <test-method status="PASS" signature="testToolTip()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@369f73a2]" name="testToolTip" duration-ms="4930" started-at="2016-09-05T17:17:13Z" finished-at="2016-09-05T17:17:18Z">
+        <test-method status="PASS" signature="testToolTip()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="testToolTip" duration-ms="5150" started-at="2016-09-07T16:42:12Z" finished-at="2016-09-07T16:42:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToolTip -->
-        <test-method status="PASS" signature="closeProject()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@369f73a2]" name="closeProject" is-config="true" duration-ms="624" started-at="2016-09-05T17:17:18Z" finished-at="2016-09-05T17:17:19Z">
+        <test-method status="PASS" signature="closeProject()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="closeProject" is-config="true" duration-ms="740" started-at="2016-09-07T16:42:17Z" finished-at="2016-09-07T16:42:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeProject -->
-        <test-method status="PASS" signature="sendMail()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@369f73a2]" name="sendMail" is-config="true" duration-ms="4741" started-at="2016-09-05T17:17:19Z" finished-at="2016-09-05T17:17:23Z">
+        <test-method status="PASS" signature="sendMail()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="sendMail" is-config="true" duration-ms="4083" started-at="2016-09-07T16:42:18Z" finished-at="2016-09-07T16:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMail -->
       </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements -->
-      <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements@1f28c152]" name="initialize" is-config="true" duration-ms="76037" started-at="2016-09-05T17:15:08Z" finished-at="2016-09-05T17:16:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testAlert()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements@1f28c152]" name="testAlert" duration-ms="21668" started-at="2016-09-05T17:16:24Z" finished-at="2016-09-05T17:16:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAlert -->
-        <test-method status="PASS" signature="closeProject()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements@1f28c152]" name="closeProject" is-config="true" duration-ms="835" started-at="2016-09-05T17:16:45Z" finished-at="2016-09-05T17:16:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeProject -->
-      </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements -->
     </test> <!-- Way To Automation Simple Techniques -->
   </suite> <!-- Way To Automation -->
 </testng-results>

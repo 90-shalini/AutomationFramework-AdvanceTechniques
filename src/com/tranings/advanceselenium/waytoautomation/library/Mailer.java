@@ -22,7 +22,7 @@ public class Mailer {
 	      // Recipient's email ID needs to be mentioned.
 		//account created in may :)
 		String from="2006.gudda@gmail.com";
-		String pass="Password123";
+		String pass="11$May@2016";
 		String to="90.shalini@gmail.com";
 		
 	      // Sender's email ID needs to be mentioned
@@ -42,7 +42,6 @@ public class Mailer {
 	      properties.put("mail.smtp.auth", "true");
 	      // Get the default Session object.
 	      Session session = Session.getDefaultInstance(properties);
-
 	      try{
 	         // Create a default MimeMessage object.
 	         MimeMessage message = new MimeMessage(session);

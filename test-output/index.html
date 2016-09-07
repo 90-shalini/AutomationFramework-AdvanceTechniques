@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,11 +99,6 @@
                       <a href="#" panel-name="suite-Way_To_Automation" class="show-methods passed suite-Way_To_Automation"> (show)</a> <!-- show-methods passed suite-Way_To_Automation -->
                     </span>
                     <div class="method-list-content passed suite-Way_To_Automation">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Way_To_Automation" title="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements" hash-for-method="testAlert">testAlert</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Way_To_Automation" title="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" hash-for-method="testDatePicker">testDatePicker</a> <!-- method navigator-link -->
@@ -172,21 +167,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Way_To_Automation-class-passed -->
-          <div class="suite-Way_To_Automation-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAlert">
-                  </a> <!-- testAlert -->
-                  <span class="method-name">testAlert</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Way_To_Automation-class-passed -->
         </div> <!-- panel Way_To_Automation -->
         <div panel-name="test-xml-Way_To_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -196,11 +176,13 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot; name=&quot;Way To Automation&quot; parallel=&quot;classes&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Way To Automation&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.tranings.advanceselenium.waytoautomation.library.CustomizedTestNGReports&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test name=&quot;Way To Automation Simple Techniques&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements&quot;/&gt;
-      &lt;class name=&quot;com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Way To Automation Simple Techniques --&gt;
 &lt;/suite&gt; &lt;!-- Way To Automation --&gt;
@@ -214,7 +196,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Way To Automation Simple Techniques (2 classes)</span>
+                <span class="test-name">Way To Automation Simple Techniques (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -240,32 +222,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testDatePicker')
 data.setCell(0, 2, 'com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements')
-data.setCell(0, 3, 30152);
+data.setCell(0, 3, 28341);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testAlert')
-data.setCell(1, 2, 'com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements')
-data.setCell(1, 3, 21668);
+data.setCell(1, 1, 'testSelectables')
+data.setCell(1, 2, 'com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements')
+data.setCell(1, 3, 5650);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testSelectables')
+data.setCell(2, 1, 'testDynamicElements')
 data.setCell(2, 2, 'com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements')
-data.setCell(2, 3, 6064);
+data.setCell(2, 3, 5446);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testDynamicElements')
+data.setCell(3, 1, 'testToolTip')
 data.setCell(3, 2, 'com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements')
-data.setCell(3, 3, 5760);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testToolTip')
-data.setCell(4, 2, 'com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements')
-data.setCell(4, 3, 4930);
+data.setCell(3, 3, 5150);
 window.suiteTableData['Way_To_Automation']= { tableData: data, tableDiv: 'times-div-Way_To_Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
               <div id="times-div-Way_To_Automation">
               </div> <!-- times-div-Way_To_Automation -->
             </div> <!-- times-div -->
@@ -291,61 +269,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testAlert</span>
-                <span class="method-start">76046 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testDatePicker</span>
-                <span class="method-start">83568 ms</span>
+                <span class="method-start">73641 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">closeProject</span>
-                <span class="method-start">97718 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testDynamicElements</span>
-                <span class="method-start">113722 ms</span>
+                <span class="method-start">102028 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testSelectables</span>
-                <span class="method-start">119484 ms</span>
+                <span class="method-start">107476 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testToolTip</span>
-                <span class="method-start">125552 ms</span>
+                <span class="method-start">113128 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeProject</span>
-                <span class="method-start">130484 ms</span>
+                <span class="method-start">118280 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">sendMail</span>
-                <span class="method-start">131153 ms</span>
+                <span class="method-start">119293 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
