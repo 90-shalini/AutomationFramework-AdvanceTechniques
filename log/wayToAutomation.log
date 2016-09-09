@@ -366,3 +366,31 @@ Driver info: driver.version: unknown
 2016-09-07 16:42:11 INFO  TestScriptSimpleElements:50 - Select->Serialize:
 2016-09-07 16:42:18 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
 2016-09-07 16:42:23 INFO  CustomizedTestNGReports:133 - >> Way To Automation <<
+2016-09-09 11:13:37 INFO  TestScriptSimpleElements:23 - Application is up and running
+2016-09-09 11:13:52 INFO  TestScriptSimpleElements:48 - pickDate->Default Functionality:
+2016-09-09 11:13:56 INFO  TestScriptSimpleElements:61 - pickDate->Animation Functionality:
+2016-09-09 11:14:00 INFO  TestScriptSimpleElements:84 - pickDate->Display Month and Year Functionality:
+2016-09-09 11:14:03 INFO  TestScriptSimpleElements:100 - pickDate->Format Date Functionality:
+2016-09-09 11:14:05 INFO  TestScriptSimpleElements:27 - clickDynamicButton functionality started:
+2016-09-09 11:14:06 INFO  TestScriptSimpleElements:34 - clickDynamicButton->Starts With Functionality:
+2016-09-09 11:14:08 INFO  TestScriptSimpleElements:46 - clickDynamicButton->Ends With Functionality:
+2016-09-09 11:14:09 INFO  TestScriptSimpleElements:58 - clickDynamicButton->Complete ID Dynamic Functionality:
+2016-09-09 11:14:12 INFO  TestScriptSimpleElements:35 - Select->Default Functionality:
+2016-09-09 11:14:14 INFO  TestScriptSimpleElements:42 - Select->Display as grid:
+2016-09-09 11:14:15 INFO  TestScriptSimpleElements:50 - Select->Serialize:
+2016-09-09 11:14:22 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
+2016-09-09 11:14:28 INFO  CustomizedTestNGReports:133 - >> Way To Automation <<
+2016-09-09 11:56:25 INFO  TestScriptSimpleElements:23 - Application is up and running
+2016-09-09 11:56:41 INFO  TestScriptSimpleElements:48 - pickDate->Default Functionality:
+2016-09-09 11:56:44 INFO  TestScriptSimpleElements:61 - pickDate->Animation Functionality:
+2016-09-09 11:56:48 INFO  TestScriptSimpleElements:84 - pickDate->Display Month and Year Functionality:
+2016-09-09 11:56:51 INFO  TestScriptSimpleElements:100 - pickDate->Format Date Functionality:
+2016-09-09 11:56:53 INFO  TestScriptSimpleElements:27 - clickDynamicButton functionality started:
+2016-09-09 11:56:54 INFO  TestScriptSimpleElements:34 - clickDynamicButton->Starts With Functionality:
+2016-09-09 11:56:56 INFO  TestScriptSimpleElements:46 - clickDynamicButton->Ends With Functionality:
+2016-09-09 11:56:57 INFO  TestScriptSimpleElements:58 - clickDynamicButton->Complete ID Dynamic Functionality:
+2016-09-09 11:56:59 INFO  TestScriptSimpleElements:35 - Select->Default Functionality:
+2016-09-09 11:57:02 INFO  TestScriptSimpleElements:42 - Select->Display as grid:
+2016-09-09 11:57:03 INFO  TestScriptSimpleElements:50 - Select->Serialize:
+2016-09-09 11:57:09 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
+2016-09-09 11:57:12 INFO  CustomizedTestNGReports:133 - >> Way To Automation <<

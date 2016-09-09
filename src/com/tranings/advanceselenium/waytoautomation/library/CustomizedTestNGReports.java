@@ -36,8 +36,7 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 		//	      String suiteName = suite.getName();
 		//	      //Getting the results for the said suite
 		//	      Map<String, ISuiteResult> suiteResults = suite.getResults();
-		//	      for (ISuiteResult sr : suiteResults.values()) {
-		//	        ITestContext tc = sr.getTestContext();
+		//	     
 		//	       
 		//	        System.out.println("Report output diorectory:" +tc.getOutputDirectory());
 		//	        System.out.println("Passed tests for suite '"+suiteName+"' is:"+tc.getPassedTests().getAllResults().size());
@@ -57,13 +56,13 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 		}
 		/**startHtmlPage(f_out) method will start the html stream, 
  		creating a basic html skeleton like creating HEAD and BODY part of html report page.**/
-		startHtmlPage(f_out);
+		startHtmlPage(f_out,suites);
 
 		//Code to populate the HTML table. This table will show the module details, test execution status, browser details… etc
 		/**This method is responsible for getting all test results, fetching 
 		 * data from TestNG.xml file and populating the HTML 
 		 * tables with these data. You can design it the way you want**/
-		generateTestExecutionStatus(suites);
+		generateTestExecutionStatus(f_out,suites);
 
 		/**Similarly endHtmlPage(f_out); method will close the html stream
 		 * @return **/
@@ -76,7 +75,7 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 
 
 	/** Starts HTML Stream */
-	public void startHtmlPage(PrintWriter out)
+	public void startHtmlPage(PrintWriter out,List<ISuite> suites)
 	{
 		out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
 		out.println("<html xmlns=\"http://www.w3.org/1999/xhtml\">");
@@ -94,8 +93,9 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 
 		Calendar cal = Calendar.getInstance();
 		out.println("<br/><div align=\"right\">Report generated on: " + cal.getTime() + "</div><br/><br/>");
+		out.println("<br/><div>"+suites.size()+"</div>");
 
-		out.flush();
+		//out.flush();
 	}
 
 	/** Finishes HTML Stream */
@@ -106,10 +106,10 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 		out.println("</body></html>");
 	}
 
-	private void generateTestExecutionStatus(List<ISuite> suites)
+	private void generateTestExecutionStatus(PrintWriter out,List<ISuite> suites)
 	{
+		
 		String testName = "";
-
 		int totalPassedMethods = 0;
 		int totalFailedMethods = 0;
 		int totalSkippedMethods = 0;
@@ -142,8 +142,12 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 				totalFailedMethods = overview.getFailedTests().getAllMethods().size();
 				totalSkippedMethods = overview.getSkippedTests().getAllMethods().size();
 
+				out.println("<br/><div>Pass: "+totalPassedMethods+"</div>");
+				out.println("<br/><div>Failed: "+totalFailedMethods+"</div>");
+				out.println("<br/><div>Skipped: "+totalSkippedMethods+"</div>");
+				
 				totalMethods = overview.getAllTestMethods().length;
-
+				out.println("<br/><div>Total methods: "+totalMethods+"</div>");
 				NumberFormat nf = NumberFormat.getInstance();
 				nf.setMaximumFractionDigits(2);
 				nf.setGroupingUsed(true);
@@ -152,9 +156,11 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 				String includedGroup = "";
 
 				ITestNGMethod[] allTestMethods = overview.getAllTestMethods();
+				out.println("<br/><div>allTestMethods: "+allTestMethods.length+"</div>");
 				for (ITestNGMethod testngMethod : allTestMethods)
 				{
 					String[] modules = testngMethod.getGroups();
+					out.println("<br/><div>modules: "+modules.length+"</div>");
 					for (String module : modules)
 					{
 						for (String moduleName : modules)
@@ -166,7 +172,7 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 							String browser_version = overview.getCurrentXmlTest().getParameter("browser_version");
 							String platform = overview.getCurrentXmlTest().getParameter("platform");
 
-							f_out.println("<p><b>Overall Execution Summary</b></p>");
+							out.println("<p><b>Overall Execution Summary</b></p>");
 
 
 						}
