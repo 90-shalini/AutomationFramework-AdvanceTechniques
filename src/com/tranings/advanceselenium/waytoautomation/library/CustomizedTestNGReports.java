@@ -93,6 +93,9 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 
 		Calendar cal = Calendar.getInstance();
 		out.println("<br/><div align=\"right\">Report generated on: " + cal.getTime() + "</div><br/><br/>");
+out.println("<br/><div>"Size of suites: "</div>");
+
+
 		out.println("<br/><div>"+suites.size()+"</div>");
 
 		//out.flush();
