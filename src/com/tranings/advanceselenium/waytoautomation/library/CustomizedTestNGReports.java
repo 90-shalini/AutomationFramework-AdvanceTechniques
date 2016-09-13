@@ -92,11 +92,9 @@ public class CustomizedTestNGReports extends TestListenerAdapter implements IRep
 		out.println("<body><br/>");
 
 		Calendar cal = Calendar.getInstance();
-		out.println("<br/><div align=\"right\">Report generated on: " + cal.getTime() + "</div><br/><br/>");
-out.println("<br/><div>"Size of suites: "</div>");
+		out.println("<br/><div align=\"left\">Report generated on: " + cal.getTime() + "</div><br/><br/>");
+		out.println("<br/><div>"+"Size of suites: " +suites.size()+"</div>");
 
-
-		out.println("<br/><div>"+suites.size()+"</div>");
 
 		//out.flush();
 	}
@@ -105,13 +103,15 @@ out.println("<br/><div>"Size of suites: "</div>");
 	public void endHtmlPage(PrintWriter out)
 	{
 		out.println("</div></div></div></div>");
+		out.println("</div></div></div></div>");
+		out.println("</div></div></div></div>");
 		out.println("<div class=\"footer\"> &copy; <a href=\"https://seleniumexperience.wordpress.com\">2013 WordPress.com</a></div>");
 		out.println("</body></html>");
 	}
 
 	private void generateTestExecutionStatus(PrintWriter out,List<ISuite> suites)
 	{
-		
+
 		String testName = "";
 		int totalPassedMethods = 0;
 		int totalFailedMethods = 0;
@@ -145,10 +145,10 @@ out.println("<br/><div>"Size of suites: "</div>");
 				totalFailedMethods = overview.getFailedTests().getAllMethods().size();
 				totalSkippedMethods = overview.getSkippedTests().getAllMethods().size();
 
-				out.println("<br/><div>Pass: "+totalPassedMethods+"</div>");
-				out.println("<br/><div>Failed: "+totalFailedMethods+"</div>");
-				out.println("<br/><div>Skipped: "+totalSkippedMethods+"</div>");
-				
+				out.println("<br/><div>Passed Tests: "+totalPassedMethods+"</div>");
+				out.println("<br/><div>Failed Tests: "+totalFailedMethods+"</div>");
+				out.println("<br/><div>Skipped Tests: "+totalSkippedMethods+"</div>");
+
 				totalMethods = overview.getAllTestMethods().length;
 				out.println("<br/><div>Total methods: "+totalMethods+"</div>");
 				NumberFormat nf = NumberFormat.getInstance();
@@ -163,32 +163,34 @@ out.println("<br/><div>"Size of suites: "</div>");
 				for (ITestNGMethod testngMethod : allTestMethods)
 				{
 					String[] modules = testngMethod.getGroups();
-					out.println("<br/><div>modules: "+modules.length+"</div>");
-					for (String module : modules)
-					{
-						for (String moduleName : modules)
+					if(modules.length>0){
+						out.println("<br/><div>modules: "+modules.length+"</div>");
+						for (String module : modules)
 						{
+							for (String moduleName : modules)
+							{
 
-							// Code to store and process testng groups …
+								// Code to store and process testng groups …
 
-							String browser = overview.getCurrentXmlTest().getParameter("browser");
-							String browser_version = overview.getCurrentXmlTest().getParameter("browser_version");
-							String platform = overview.getCurrentXmlTest().getParameter("platform");
+								String browser = overview.getCurrentXmlTest().getParameter("browser");
+								String browser_version = overview.getCurrentXmlTest().getParameter("browser_version");
+								String platform = overview.getCurrentXmlTest().getParameter("platform");
 
-							out.println("<p><b>Overall Execution Summary</b></p>");
+								out.println("<p><b>Overall Execution Summary</b></p>");
 
 
+							}
 						}
 					}
 				}
 			}
 		}
 	}
-	
+
 	private PrintWriter createWriter(String outdir) throws IOException
 	{
-	new File(outdir).mkdirs();
-	return new PrintWriter(new BufferedWriter(new FileWriter(
-	new File(".\\test-output", "customized-test-run-report.html"))));
+		new File(outdir).mkdirs();
+		return new PrintWriter(new BufferedWriter(new FileWriter(
+				new File(".\\test-output", "customized-test-run-report.html"))));
 	}
 }

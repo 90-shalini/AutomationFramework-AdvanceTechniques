@@ -22,7 +22,7 @@ public class Mailer {
 	      // Recipient's email ID needs to be mentioned.
 		//account created in may :)
 		String from="2006.gudda@gmail.com";
-		String pass="11$May@2016";
+		String pass="Password123";
 		String to="90.shalini@gmail.com";
 		
 	      // Sender's email ID needs to be mentioned
