@@ -16,7 +16,7 @@ import com.tranings.advanceselenium.waytoautomation.library.Utils;;
 
 
 public class Init {
-	WebDriver driver = null;
+	static WebDriver driver = null;
 	Utils util = new Utils();
 	DriverClass d = new DriverClass();
 

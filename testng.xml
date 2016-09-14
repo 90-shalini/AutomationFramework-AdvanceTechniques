@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Way To Automation" > 
+<suite name="Way To Automation Suite">
 	<listeners>
-		<listener class-name="com.tranings.advanceselenium.waytoautomation.library.CustomizedTestNGReports" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
-	<test name="Way To Automation Simple Techniques">
-		<classes>
-			<class
-				name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
-		</classes>
-	</test>
+	<suite-files>
+	<suite-file path = ".\\suite1.xml"/>
+	<!-- <suite-file path = ".\\suite2.xml"/>-->
+	</suite-files>
 	<!-- Test -->
 </suite> <!-- Suite -->

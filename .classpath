@@ -58,5 +58,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="D:/SETUPS/activation-2.2.1.jar/activation-2.2.1.jar"/>
 	<classpathentry kind="lib" path="D:/SETUPS/javax.mail.jar/javax.mail.jar"/>
+	<classpathentry kind="lib" path="D:/SETUPS/reportng-1.1.4 (1)/reportng-1.1.4/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/SETUPS/reportng-1.1.4 (1)/reportng-1.1.4/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/SETUPS/guice-4.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

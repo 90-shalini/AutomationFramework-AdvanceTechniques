@@ -13,22 +13,22 @@ public class TestScriptAdvanceElements {
 	WebDriver driver = null;
 	public final static Logger logger = Logger.getLogger(TestScriptSimpleElements.class);
 	Init init = new Init();
-	@BeforeClass
-	public void initialize() throws Exception { 
-		this.driver = init.initiate();
-		logger.info("Application is up and running");
-
-	}
+//	@BeforeClass
+//	public void initialize() throws Exception { 
+//		this.driver = init.initiate();
+//		logger.info("Application is up and running");
+//
+//	}
 
 	@Test
 	public void testAlert(){
 		Alerts al = new Alerts();
 		al.alertFunction(driver,logger);
 	}
-
-	@AfterClass
-	public void closeProject(){
-		new Init().closeBrowser(driver,logger);
-		//Init.sendMail(report,logger);
-	}
+//
+//	@AfterClass
+//	public void closeProject(){
+//		new Init().closeBrowser(driver,logger);
+//		
+//	}
 }

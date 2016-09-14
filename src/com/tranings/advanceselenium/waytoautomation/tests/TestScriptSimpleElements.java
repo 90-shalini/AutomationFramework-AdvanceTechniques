@@ -17,16 +17,17 @@ public class TestScriptSimpleElements {
 	WebDriver driver = null;
 	public final static Logger logger = Logger.getLogger(TestScriptSimpleElements.class);
 	Init init = new Init();
-	@BeforeClass
-	public void initialize() throws Exception { 
-		this.driver = init.initiate();
-		logger.info("Application is up and running");
-
-	}
+//	@BeforeClass
+//	public void initialize() throws Exception { 
+//		this.driver = init.initiate();
+//		logger.info("Application is up and running");
+//
+//	}
 
 	/**DatePicker Test case to handle calendar**/
 	@Test
 	public void testDatePicker(){
+		System.out.println("driver details:"+driver.getTitle());
 		DatePicker dp = new DatePicker();
 		dp.pickDate(driver,logger);
 	}
@@ -34,6 +35,8 @@ public class TestScriptSimpleElements {
 
 	@Test
 	public void testSelectables(){
+		System.out.println("driver details:"+driver.getTitle());
+		
 		Selectable selectItem = new Selectable();
 		selectItem.Select(driver,logger);	
 	}
@@ -41,27 +44,29 @@ public class TestScriptSimpleElements {
 
 	@Test
 	public void testDynamicElements(){
+		System.out.println("driver details:"+driver.getTitle());
+		
 		DynamicElements de = new DynamicElements();
 		de.clickDynamicButton(driver,logger);
 	}
 
 	@Test
 	public void testToolTip(){
+		System.out.println("driver details:"+driver.getTitle());
+		
 		ToolTip tt = new ToolTip();
 		tt.tooltipFunctionality(driver,logger);
 	}
 
-	@AfterClass
-	public void closeProject(){
-		new Init().closeBrowser(driver,logger);
-
-	}
-	@AfterSuite
-	public void sendMail(){
-		init.sendMail(logger); 
-
-
-	}
+//	@AfterClass
+//	public void closeProject(){
+//		new Init().closeBrowser(driver,logger);
+//
+//	}
+//	@AfterSuite
+//	public void sendMail(){
+//		init.sendMail(logger); 
+//	}
 
 
 
