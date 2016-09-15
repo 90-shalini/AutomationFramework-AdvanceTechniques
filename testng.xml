@@ -6,8 +6,8 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
 	<suite-files>
-	<suite-file path = ".\\suite1.xml"/>
-	<!-- <suite-file path = ".\\suite2.xml"/>-->
+	<!--  <suite-file path = ".\\suite1.xml"/>-->
+	<suite-file path = ".\\suite2.xml"/>
 	</suite-files>
 	<!-- Test -->
 </suite> <!-- Suite -->

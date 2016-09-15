@@ -22,6 +22,7 @@ public class TestScriptAdvanceElements {
 
 	@Test
 	public void testAlert(){
+		this.driver= TestConfigurations.driver;
 		Alerts al = new Alerts();
 		al.alertFunction(driver,logger);
 	}

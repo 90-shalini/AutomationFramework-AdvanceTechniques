@@ -16,9 +16,9 @@ import com.tranings.advanceselenium.waytoautomation.library.Utils;;
 
 
 public class Init {
-	static WebDriver driver = null;
+	WebDriver driver = null;
 	Utils util = new Utils();
-	DriverClass d = new DriverClass();
+	static DriverClass d = new DriverClass();
 
 	public WebDriver initiate(){	
 		String browser,username=null,password=null;
@@ -63,8 +63,7 @@ public class Init {
 				}
 				windows = null;
 			}
-			System.out.println("closed all browsers....");
-		}
+			}
 		catch(Exception e){
 			String testName = Class.class.getEnclosingMethod().getName();
 			System.out.println("TestName: " +testName);

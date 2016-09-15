@@ -17,77 +17,82 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 public class Mailer {	
 	public static void sendReportByGMail()
-	     {
-		System.out.println("Inside send report by GMAIL function");
-	      // Recipient's email ID needs to be mentioned.
-		//account created in may :)
-		String from="2016.gudda@gmail.com";
-		String pass="11$May@2016";
-		String to="90.shalini@gmail.com";
-		
-	      // Sender's email ID needs to be mentioned
+	{
+		try{
+			System.out.println("Inside send report by GMAIL function");
+			// Recipient's email ID needs to be mentioned.
+			//account created in may :)
+			String from="2006.gudda@gmail.com";
+			String pass="Password123";
+			String to="90.shalini@gmail.com";
 
-	      // Assuming you are sending email from localhost
-	      //String host = "localhost";
-		String host = "smtp.gmail.com";
-	      // Get system properties
-	      Properties properties = System.getProperties();
-	      // Setup mail server
-	      //properties.setProperty("mail.smtp.host", host);
-	      properties.put("mail.smtp.starttls.enable", "true");	      
-	      properties.put("mail.smtp.host", host);	       
-	      properties.put("mail.smtp.user", from);	       
-	      properties.put("mail.smtp.password", pass);	       
-	      properties.put("mail.smtp.port", "587");	       
-	      properties.put("mail.smtp.auth", "true");
-	      // Get the default Session object.
-	      Session session = Session.getDefaultInstance(properties);
-	      try{
-	         // Create a default MimeMessage object.
-	         MimeMessage message = new MimeMessage(session);
-	         // Set From: header field of the header.
-	         message.setFrom(new InternetAddress(from));
-	         // Set To: header field of the header.
-	         message.addRecipient(Message.RecipientType.TO,new InternetAddress(to));
+			// Sender's email ID needs to be mentioned
 
-	         // Set Subject: header field
-	         message.setSubject("Report");
+			// Assuming you are sending email from localhost
+			//String host = "localhost";
+			String host = "smtp.gmail.com";
+			// Get system properties
+			Properties properties = System.getProperties();
+			// Setup mail server
+			//properties.setProperty("mail.smtp.host", host);
+			properties.put("mail.smtp.starttls.enable", "true");	      
+			properties.put("mail.smtp.host", host);	       
+			properties.put("mail.smtp.user", from);	       
+			properties.put("mail.smtp.password", pass);	       
+			properties.put("mail.smtp.port", "587");	       
+			properties.put("mail.smtp.auth", "true");
+			// Get the default Session object.
+			Session session = Session.getDefaultInstance(properties);
+			try{
+				// Create a default MimeMessage object.
+				MimeMessage message = new MimeMessage(session);
+				// Set From: header field of the header.
+				message.setFrom(new InternetAddress(from));
+				// Set To: header field of the header.
+				message.addRecipient(Message.RecipientType.TO,new InternetAddress(to));
 
-	         // Create the message part 
-	         BodyPart messageBodyPart = new MimeBodyPart();
+				// Set Subject: header field
+				message.setSubject("Report");
 
-	         // Fill the message
-	         messageBodyPart.setText("Please find the attached report file.");
-	         	
-	         // Create a multipar message
-	         Multipart multipart = new MimeMultipart();
+				// Create the message part 
+				BodyPart messageBodyPart = new MimeBodyPart();
 
-	         // Set text message part
-	         multipart.addBodyPart(messageBodyPart);
+				// Fill the message
+				messageBodyPart.setText("Please find the attached report file.");
 
-	         // Part two is attachment
-	         messageBodyPart = new MimeBodyPart();
-	         String filename = "D:\\Trainings\\advanceSelenium\\AutomationFrameworkAdvancedTechniques\\test-output\\html\\index.html";
-	         DataSource source = new FileDataSource(filename);
-	         messageBodyPart.setDataHandler(new DataHandler(source));
-	         messageBodyPart.setFileName("TestNG ReportNG Report.html");
-	         multipart.addBodyPart(messageBodyPart);
+				// Create a multipar message
+				Multipart multipart = new MimeMultipart();
 
-	         // Send the complete message parts
-	         message.setContent(multipart );
+				// Set text message part
+				multipart.addBodyPart(messageBodyPart);
 
-	         // Send message
-	         Transport transport = session.getTransport("smtp");	         
-	         transport.connect(host, from, pass);	          
-	         transport.sendMessage(message, message.getAllRecipients());	          
-	         transport.close();
-	         System.out.println("Sent message successfully....");
-	      }catch (AddressException ae) {
-	    	  
-	    	  ae.printStackTrace();
-	    	   
-	    	  }catch (MessagingException mex) {
-	         mex.printStackTrace();
-	      }
-	   }
-	}
+				// Part two is attachment
+				messageBodyPart = new MimeBodyPart();
+
+				String filename = "..\\test-output\\html\\index.html";
+				DataSource source = new FileDataSource(filename);
+				messageBodyPart.setDataHandler(new DataHandler(source));
+				messageBodyPart.setFileName("TestNG ReportNG Report.html");
+				multipart.addBodyPart(messageBodyPart);
+
+				// Send the complete message parts
+				message.setContent(multipart );
+
+				// Send message
+				Transport transport = session.getTransport("smtp");	         
+				transport.connect(host, from, pass);	          
+				transport.sendMessage(message, message.getAllRecipients());	          
+				transport.close();
+				System.out.println("Sent message successfully....");
+			}catch (AddressException ae) {
+
+				ae.printStackTrace();
+
+			}catch (MessagingException mex) {
+				mex.printStackTrace();
+			}
+		}
+		catch(Exception e){
+			System.out.println(e.getMessage()); 
+		}
+	}}
