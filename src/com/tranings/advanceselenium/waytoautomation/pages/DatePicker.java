@@ -3,11 +3,11 @@ package com.tranings.advanceselenium.waytoautomation.pages;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.apache.log4j.Logger;
 
 import com.tranings.advanceselenium.waytoautomation.library.Utils;
 
@@ -108,8 +108,8 @@ public class DatePicker {
 			driver.switchTo().defaultContent();
 		}
 		catch(Exception e){
-			e.printStackTrace();
 			String testName = this.getClass().getEnclosingMethod().getName();
+			logger.error(e.getMessage());
 			util.captureScreeshot(logger,driver,testName);
 
 		}

@@ -84,3 +84,17 @@
 2016-09-15 16:06:24 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
 2016-09-15 16:06:27 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
 2016-09-15 16:06:27 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
+2016-09-16 14:28:31 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-16 14:28:47 INFO  TestScriptSimpleElements:48 - pickDate->Default Functionality:
+2016-09-16 14:28:51 INFO  TestScriptSimpleElements:61 - pickDate->Animation Functionality:
+2016-09-16 14:28:55 INFO  TestScriptSimpleElements:84 - pickDate->Display Month and Year Functionality:
+2016-09-16 14:28:59 INFO  TestScriptSimpleElements:100 - pickDate->Format Date Functionality:
+2016-09-16 14:29:00 INFO  TestScriptSimpleElements:27 - clickDynamicButton functionality started:
+2016-09-16 14:29:01 INFO  TestScriptSimpleElements:34 - clickDynamicButton->Starts With Functionality:
+2016-09-16 14:29:06 INFO  TestScriptSimpleElements:46 - clickDynamicButton->Ends With Functionality:
+2016-09-16 14:29:08 INFO  TestScriptSimpleElements:58 - clickDynamicButton->Complete ID Dynamic Functionality:
+2016-09-16 14:29:11 INFO  TestScriptSimpleElements:35 - Select->Default Functionality:
+2016-09-16 14:29:14 INFO  TestScriptSimpleElements:42 - Select->Display as grid:
+2016-09-16 14:29:16 INFO  TestScriptSimpleElements:50 - Select->Serialize:
+2016-09-16 14:29:23 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-16 14:29:23 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function

@@ -12,38 +12,35 @@ public class TestConfigurations {
 	static WebDriver driver;
 	public final static Logger logger = Logger.getLogger(TestScriptSimpleElements.class);
 	Init init = new Init();
-	 
+
 	@BeforeTest
 	public void initialize() throws Exception { 
-		TestConfigurations.driver = init.initiate();	
-		System.out.println(driver.getTitle());
-		logger.info("Application is up and running");		
-						
+		try{
+			TestConfigurations.driver = init.initiate(logger);	
+			System.out.println(driver.getTitle());
+			logger.info("Application is up and running");	
+		}catch(Exception e)
+		{
+			logger.error(e.getMessage());
+		}
 	}
-//	@Factory (dataProvider="dataProviderMethod")
-//	public SolicitudEmpleo(String campoDni, String firstName, String lastName){
-//	    this.campoDni=campoDni;
-//	    this.firstName = firstName;
-//	    this.lastName = lastName;
-//	}
-//	@DataProvider(name="driverDetails")
-//	public Object[][] GetWebDriverName(){
-//		
-//		return new Object[][] { {"1","FireFox"}, {"2", "Chrome"} };
-//	
-//		
-//
-//	}
+
 	@AfterTest
 	public void closeProject(){
-		init.closeBrowser(driver,logger);
-		logger.info("Application is closing the browsers");
-
+		try{
+			init.closeBrowser(driver,logger);
+			logger.info("Application is closing the browsers");
+		}catch(Exception e){
+			logger.error(e.getMessage());
+		}
 	}
+
 	@AfterSuite
 	public void sendMail(){
-		init.sendMail(logger); 
-
-
+		try{
+			init.sendMail(logger); 
+		}catch(Exception e){
+			logger.error(e.getMessage());
+		}
 	}
 }

@@ -1,6 +1,8 @@
 package com.tranings.advanceselenium.waytoautomation.pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 
 import com.tranings.advanceselenium.waytoautomation.library.Utils;
@@ -32,9 +34,14 @@ public class DemoSite {
 	//Alert
 	public By Alert = By.xpath("//h2[contains(text(),'Alert')]");
 	
-	public void clickTestingElement(WebDriver driver,By element){
+	public void clickTestingElement(WebDriver driver,By element,Logger logger){
+		try{
 		util.minWaitForElement(driver, element);
 		driver.findElement(element).click();
+		}catch(TimeoutException  te){
+			logger.error(te.getMessage());
+			
+		}
 	}
 	
 	

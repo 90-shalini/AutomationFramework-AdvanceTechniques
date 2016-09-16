@@ -65,8 +65,8 @@ public class DynamicElements {
 			driver.switchTo().defaultContent();
 		}
 		catch(Exception e){
-			e.printStackTrace();
 			String testName = this.getClass().getEnclosingMethod().getName();
+			logger.error(e.getMessage());
 			util.captureScreeshot(logger,driver,testName);
 		}
 

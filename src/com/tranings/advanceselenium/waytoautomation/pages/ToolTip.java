@@ -57,9 +57,8 @@ public class ToolTip {
 		
 
 	}catch(Exception e){
-		e.printStackTrace();
 		String testName = this.getClass().getEnclosingMethod().getName();
-		logger.error("Exception in "+testName+" :", e);		
+		logger.error(e.getMessage());		
 		util.captureScreeshot(logger,driver,testName);			
 		}
 	}

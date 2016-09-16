@@ -19,6 +19,7 @@ public class Alerts {
 	Utils util = new Utils();
 
 	public void alertFunction(WebDriver driver,Logger logger){
+		try{
 		logger.info("Alert functionality started:");		
 		util.minWaitForElementToBeVisible(driver, alertLink);
 		driver.findElement(alertLink).click();
@@ -53,7 +54,13 @@ public class Alerts {
 		alert.accept();
 		System.out.println("inputted value and clicked");
 		driver.switchTo().defaultContent();
+		}
+		catch(Exception e){
+			String testName = this.getClass().getEnclosingMethod().getName();
+			logger.error(e.getMessage());
+			util.captureScreeshot(logger,driver,testName);
 
+		}
 		
 		
 	}

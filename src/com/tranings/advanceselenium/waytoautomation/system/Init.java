@@ -20,7 +20,7 @@ public class Init {
 	Utils util = new Utils();
 	static DriverClass d = new DriverClass();
 
-	public WebDriver initiate(){	
+	public WebDriver initiate(Logger logger){	
 		String browser,username=null,password=null;
 		Properties properties = new Properties();
 		try {
@@ -39,18 +39,14 @@ public class Init {
 		}				
 		
 		Helper hlp = new Helper();
-		hlp.navigateToDemoSite(driver,username,password);
+		hlp.navigateToDemoSite(driver,username,password,logger);
 		return driver;
 
 	}
 	
 	public void sendMail(Logger logger){
-		//close all reports		
-		//send mail
 		logger.info("Inside Init sendMail function");
 		Mailer.sendReportByGMail();
-
-		//report.endTest(logger);
 		//report.flush();
 	}
 	public void closeBrowser(WebDriver driver,Logger logger){	

@@ -35,6 +35,7 @@ public class Utils {
 			//destination where screenshot is saved
 		
 			String screenshotDestination = Screenshot.takeSnapShot(driver, testName); 
+		
 			
 			//logger.log(LogStatus.FAIL, "Way to Automation");// logger. .addScreenCapture(screenshotDestination));
 		//}
