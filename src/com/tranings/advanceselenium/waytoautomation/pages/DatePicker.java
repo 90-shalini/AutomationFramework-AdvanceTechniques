@@ -68,7 +68,7 @@ public class DatePicker {
 			util.minWaitForElementToBeVisible(driver, dateInput);	
 			driver.findElement(dateInput).click();// .sendKeys("05/03/2016");
 			//driver.findElement(dateInput).sendKeys("KEYS.ENTER");
-			WebElement dateWidget = driver.findElement(By.id("ui-datepicker"));//-div
+			WebElement dateWidget = driver.findElement(By.id("ui-datepicker-div"));//
 //			if(util.isNull(dateWidget)){
 //					System.out.println("Element not exists, can throw exception here");
 //			}

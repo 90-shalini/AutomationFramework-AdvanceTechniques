@@ -24,8 +24,8 @@ public class Mailer {
 			System.out.println("Inside send report by GMAIL function");
 			// Recipient's email ID needs to be mentioned.
 			//account created in may :)
-			String from="2016.gudda@gmail.com";
-			String pass="11$May@2016";
+			String from="2006.gudda@gmail.com";
+			String pass="Password123";
 			String to="90.shalini@gmail.com";
 
 			// Sender's email ID needs to be mentioned
