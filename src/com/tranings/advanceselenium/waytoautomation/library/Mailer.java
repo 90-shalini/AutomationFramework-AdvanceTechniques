@@ -15,15 +15,17 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+
+import org.apache.log4j.Logger;
 public class Mailer {	
-	public static void sendReportByGMail()
+	public static void sendReportByGMail(Logger logger)
 	{
 		try{
 			System.out.println("Inside send report by GMAIL function");
 			// Recipient's email ID needs to be mentioned.
 			//account created in may :)
-			String from="2006.gudda@gmail.com";
-			String pass="Password123";
+			String from="2016.gudda@gmail.com";
+			String pass="11$May@2016";
 			String to="90.shalini@gmail.com";
 
 			// Sender's email ID needs to be mentioned
@@ -69,7 +71,7 @@ public class Mailer {
 				// Part two is attachment
 				messageBodyPart = new MimeBodyPart();
 
-				String filename = "..\\test-output\\html\\index.html";
+				String filename = "D:\\Trainings\\advanceSelenium\\AutomationFrameworkAdvancedTechniques\\test-output\\emailable-report.html";
 				DataSource source = new FileDataSource(filename);
 				messageBodyPart.setDataHandler(new DataHandler(source));
 				messageBodyPart.setFileName("TestNG ReportNG Report.html");
@@ -93,6 +95,6 @@ public class Mailer {
 			}
 		}
 		catch(Exception e){
-			System.out.println(e.getMessage()); 
+			logger.error(e.getMessage());
 		}
 	}}

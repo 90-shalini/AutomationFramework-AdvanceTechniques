@@ -2,7 +2,12 @@ package com.tranings.advanceselenium.waytoautomation.pages;
 
 import java.util.List;
 
+
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import com.tranings.advanceselenium.waytoautomation.library.Utils;
@@ -24,6 +29,7 @@ public class DynamicElements {
 	public void clickDynamicButton(WebDriver driver,Logger logger){
 		try{
 			//click on partial Dynamic element
+			driver.switchTo().defaultContent();
 			logger.info("clickDynamicButton functionality started:");
 			util.minWaitForElementToBeVisible(driver, dynamicElementWidget);
 			driver.findElement(dynamicElementWidget).click();
@@ -62,9 +68,10 @@ public class DynamicElements {
 			inputs = driver.findElements(By.tagName("input"));
 			inputs.get(0).sendKeys("123");
 			inputs.get(1).click();
+			logger.info("clickDynamicButton functionality completed:");
 			driver.switchTo().defaultContent();
 		}
-		catch(Exception e){
+		catch(NoSuchElementException|ElementNotVisibleException|TimeoutException e){
 			String testName = this.getClass().getEnclosingMethod().getName();
 			logger.error(e.getMessage());
 			util.captureScreeshot(logger,driver,testName);

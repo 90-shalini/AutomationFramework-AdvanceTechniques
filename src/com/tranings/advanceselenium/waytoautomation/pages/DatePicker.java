@@ -5,6 +5,9 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -45,8 +48,8 @@ public class DatePicker {
 			driver.findElement(datePickerLink).click();
 
 			//Default Functionality
-			logger.info("pickDate->Default Functionality:");
-			System.out.println("Today's Date Testing: "+new Date().toString());
+			logger.info("pickDate->Default Functionality started:");
+//			System.out.println("Today's Date Testing: "+new Date().toString());
 			util.minWaitForElementToBeVisible(driver, defaultFunctionalityLink);
 			driver.findElement(defaultFunctionalityLink).click();
 			driver.switchTo().frame(driver.findElement(defaultFuncTab).findElement(DemoFrame));		
@@ -65,19 +68,25 @@ public class DatePicker {
 			util.minWaitForElementToBeVisible(driver, dateInput);	
 			driver.findElement(dateInput).click();// .sendKeys("05/03/2016");
 			//driver.findElement(dateInput).sendKeys("KEYS.ENTER");
-			WebElement dateWidget = driver.findElement(By.id("ui-datepicker-div"));
+			WebElement dateWidget = driver.findElement(By.id("ui-datepicker"));//-div
+//			if(util.isNull(dateWidget)){
+//					System.out.println("Element not exists, can throw exception here");
+//			}
+//			else{
 			List<WebElement> days =dateWidget.findElements(By.tagName("td"));
-			System.out.println(days.size());
+//			System.out.println(days.size());
 			for(WebElement day:days){
 				if(day.getText().equals("10")){
-					System.out.println("got date");
+//					System.out.println("got date");
 					day.click();
 				break;
 				}
 			}
+			
 			Select animations= new Select(driver.findElement(animationDropDown));
 			animations.selectByValue("fadeIn");
 			animations.selectByIndex(8);
+		//	}
 			driver.switchTo().defaultContent();
 
 			//Display Month and Year
@@ -92,7 +101,7 @@ public class DatePicker {
 			Select year = new Select(driver.findElement(calenderYear));
 			year.selectByValue(yearValue);
 			driver.findElement(Day).click();
-			System.out.println("Selected Date:" +driver.findElement(dateInput).getText());
+//			System.out.println("Selected Date:" +driver.findElement(dateInput).getText());
 			driver.switchTo().defaultContent();
 
 
@@ -104,15 +113,16 @@ public class DatePicker {
 			Select formatOptionsDropDown = new Select(driver.findElement(formatOptions));
 			formatOptionsDropDown.selectByValue("d MM, y");
 			util.minWaitForElementToBeVisible(driver, dateInput);			
-			System.out.println("Date in special format: "+driver.findElement(dateInput).getText());
+//			System.out.println("Date in special format: "+driver.findElement(dateInput).getText());
+			logger.info("DatePicker Functionality completed:");
 			driver.switchTo().defaultContent();
 		}
-		catch(Exception e){
-			String testName = this.getClass().getEnclosingMethod().getName();
-			logger.error(e.getMessage());
+		catch(NoSuchElementException|ElementNotVisibleException|TimeoutException|NullPointerException e){
+			String testName = this.getClass().getName().substring(51);
 			util.captureScreeshot(logger,driver,testName);
-
+			logger.info(e.getCause());
 		}
+		
 
 
 	}

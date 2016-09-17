@@ -1,6 +1,7 @@
 package com.tranings.advanceselenium.waytoautomation.system;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -8,13 +9,18 @@ public class DriverClass {
 
 
 	public WebDriver getBrowser(String browserType){
-
-		if(browserType.equalsIgnoreCase("FIREFOX"))
-			return new FirefoxDriver();
-		else if(browserType.equalsIgnoreCase("CHROME")){
-			return new ChromeDriver();
-		}else
+		try{
+			if(browserType.equalsIgnoreCase("FIREFOX"))
+				return new FirefoxDriver();
+			else if(browserType.equalsIgnoreCase("CHROME")){
+				return new ChromeDriver();
+			}else
+				return null;
+		}
+		catch(WebDriverException e){
+			e.printStackTrace();
 			return null;
+		}
 	}
 	//	private static WebDriver driver = null;
 	//		private Driver(){			

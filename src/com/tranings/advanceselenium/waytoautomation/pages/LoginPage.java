@@ -2,6 +2,9 @@ package com.tranings.advanceselenium.waytoautomation.pages;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 
@@ -23,7 +26,10 @@ public class LoginPage {
 		driver.findElement(loginDiv).findElement(userName).sendKeys(name);
 		driver.findElement(loginDiv).findElement(passWord).sendKeys(password);
 		driver.findElement(loginDiv).findElement(loginButton).click();
-		}catch(WebDriverException wde){
+		}catch(NoSuchElementException|ElementNotVisibleException|TimeoutException e){
+			logger.error(e.getMessage());
+		}
+		catch(WebDriverException wde){
 			logger.error(wde.getMessage());
 		}
 		

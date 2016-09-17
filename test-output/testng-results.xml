@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[<a href=D:\Trainings\advanceSelenium\AutomationFrameworkAdvancedTechniques\Screenshot\DatePicker.png>Detailed Error Screen</a><p>error screenshot</p>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=D:\Trainings\advanceSelenium\AutomationFrameworkAdvancedTechniques\Screenshot\DatePicker.png>Detailed Error Screen</a><p>error screenshot</p>]]>
+    </line>
   </reporter-output>
-  <suite name="Way To Automation" duration-ms="111428" started-at="2016-09-13T06:50:12Z" finished-at="2016-09-13T06:52:04Z">
+  <suite name="Way To Automation Simple WebElemnets Suite" duration-ms="99202" started-at="2016-09-17T10:39:11Z" finished-at="2016-09-17T10:40:50Z">
     <groups>
     </groups>
-    <test name="Way To Automation Simple Techniques" duration-ms="111428" started-at="2016-09-13T06:50:12Z" finished-at="2016-09-13T06:52:04Z">
+    <test name="Way To Automation Simple Techniques" duration-ms="99202" started-at="2016-09-17T10:39:11Z" finished-at="2016-09-17T10:40:50Z">
       <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="initialize" is-config="true" duration-ms="64072" started-at="2016-09-13T12:20:12Z" finished-at="2016-09-13T12:21:17Z">
+        <test-method status="PASS" signature="testDatePicker()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@4923ab24]" name="testDatePicker" duration-ms="20947" started-at="2016-09-17T16:10:29Z" finished-at="2016-09-17T16:10:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=D:\Trainings\advanceSelenium\AutomationFrameworkAdvancedTechniques\Screenshot\DatePicker.png>Detailed Error Screen</a><p>error screenshot</p>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=D:\Trainings\advanceSelenium\AutomationFrameworkAdvancedTechniques\Screenshot\DatePicker.png>Detailed Error Screen</a><p>error screenshot</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDatePicker -->
+      </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements -->
+      <class name="com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@670b40af]" name="initialize" is-config="true" duration-ms="77456" started-at="2016-09-17T16:09:11Z" finished-at="2016-09-17T16:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testDatePicker()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="testDatePicker" duration-ms="30044" started-at="2016-09-13T12:21:17Z" finished-at="2016-09-13T12:21:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDatePicker -->
-        <test-method status="PASS" signature="testDynamicElements()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="testDynamicElements" duration-ms="5415" started-at="2016-09-13T12:21:47Z" finished-at="2016-09-13T12:21:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDynamicElements -->
-        <test-method status="PASS" signature="testSelectables()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="testSelectables" duration-ms="6004" started-at="2016-09-13T12:21:52Z" finished-at="2016-09-13T12:21:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSelectables -->
-        <test-method status="PASS" signature="testToolTip()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="testToolTip" duration-ms="4980" started-at="2016-09-13T12:21:58Z" finished-at="2016-09-13T12:22:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testToolTip -->
-        <test-method status="PASS" signature="closeProject()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="closeProject" is-config="true" duration-ms="871" started-at="2016-09-13T12:22:03Z" finished-at="2016-09-13T12:22:04Z">
+        <test-method status="PASS" signature="closeProject()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@670b40af]" name="closeProject" is-config="true" duration-ms="772" started-at="2016-09-17T16:10:50Z" finished-at="2016-09-17T16:10:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeProject -->
-        <test-method status="PASS" signature="sendMail()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@1d16f93d]" name="sendMail" is-config="true" duration-ms="4953" started-at="2016-09-13T12:22:04Z" finished-at="2016-09-13T12:22:09Z">
+        <test-method status="PASS" signature="sendMail()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@670b40af]" name="sendMail" is-config="true" duration-ms="6149" started-at="2016-09-17T16:10:50Z" finished-at="2016-09-17T16:10:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMail -->
-      </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements -->
+      </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations -->
     </test> <!-- Way To Automation Simple Techniques -->
-  </suite> <!-- Way To Automation -->
+  </suite> <!-- Way To Automation Simple WebElemnets Suite -->
+  <suite name="Way To Automation Suite" duration-ms="0" started-at="2016-09-17T10:40:57Z" finished-at="2016-09-17T10:40:57Z">
+    <groups>
+    </groups>
+  </suite> <!-- Way To Automation Suite -->
 </testng-results>

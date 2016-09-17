@@ -1,6 +1,9 @@
 package com.tranings.advanceselenium.waytoautomation.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -27,6 +30,7 @@ public class Selectable {
 	public void Select(WebDriver driver,Logger logger){
 
 		try{
+			driver.switchTo().defaultContent();
 			//clicking on Selectable element
 			util.minWaitForElementToBeVisible(driver, selectableLink);
 			driver.findElement(selectableLink).click();
@@ -35,7 +39,7 @@ public class Selectable {
 			logger.info("Select->Default Functionality:");
 			util.minWaitForElementToBeVisible(driver, DemoFrame);
 			driver.switchTo().frame(driver.findElement(defaultFuncTab).findElement(DemoFrame));
-			clickItem("Item 4", driver);
+			clickItem("Item 4", driver,logger);
 			driver.switchTo().defaultContent();
 			
 			//perform select on display as grid	
@@ -43,7 +47,7 @@ public class Selectable {
 			util.minWaitForElementToBeVisible(driver,displayAsGridLinkTab);
 			driver.findElement(displayAsGridLinkTab).click();
 			driver.switchTo().frame(driver.findElement(displayGridTab).findElement(DemoFrame));
-			clickItem("6", driver);
+			clickItem("6", driver,logger);
 			driver.switchTo().defaultContent();
 			
 			//perform select on serialize
@@ -51,15 +55,15 @@ public class Selectable {
 			util.minWaitForElementToBeVisible(driver,seralizeTab);
 			driver.findElement(seralizeTab).click();
 			driver.switchTo().frame(driver.findElement(serializeExampleTab).findElement(DemoFrame));
-			clickItem("Item 2", driver);
-			System.out.println(driver.findElement(getItemNumber).getText());
+			clickItem("Item 2", driver,logger);
+			//System.out.println(driver.findElement(getItemNumber).getText());
 			driver.switchTo().defaultContent();
 			Assert.assertEquals("Selectable", driver.findElement(heading).getText());
 			
 			
 			
 
-		}catch(Exception e){
+		}catch(NoSuchElementException|ElementNotVisibleException|TimeoutException e){
 			String testName = this.getClass().getEnclosingMethod().getName();
 			logger.error(e.getMessage());
 			util.captureScreeshot(logger,driver,testName);			
@@ -68,14 +72,14 @@ public class Selectable {
 
 	}
 
-	public void clickItem(String itemName,WebDriver driver){
+	public void clickItem(String itemName,WebDriver driver,Logger logger){
 		By item = By.xpath("//li[contains(text(),'"+itemName+"')]");
 		try {
 			util.minWaitForElementToBeVisible(driver,item);
 			WebElement itemToClick = driver.findElement(item);				
 			itemToClick.click();
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (NoSuchElementException|ElementNotVisibleException|TimeoutException e) {
+			logger.error(e.getMessage());
 		}
 
 

@@ -1,100 +1,193 @@
-2016-09-15 14:42:09 INFO  TestScriptSimpleElements:23 - Application is up and running
-2016-09-15 14:43:56 INFO  TestScriptSimpleElements:45 - Application is closing the browsers
-2016-09-15 14:48:29 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 14:48:44 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 14:50:58 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 14:51:00 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 14:56:51 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 14:57:07 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 14:59:09 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 14:59:24 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:05:33 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:05:49 INFO  TestScriptSimpleElements:48 - pickDate->Default Functionality:
-2016-09-15 15:05:53 INFO  TestScriptSimpleElements:61 - pickDate->Animation Functionality:
-2016-09-15 15:05:58 INFO  TestScriptSimpleElements:84 - pickDate->Display Month and Year Functionality:
-2016-09-15 15:06:01 INFO  TestScriptSimpleElements:100 - pickDate->Format Date Functionality:
-2016-09-15 15:06:04 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:07:49 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:08:04 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:19:59 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:20:15 INFO  TestScriptSimpleElements:48 - pickDate->Default Functionality:
-2016-09-15 15:20:18 INFO  TestScriptSimpleElements:61 - pickDate->Animation Functionality:
-2016-09-15 15:20:22 INFO  TestScriptSimpleElements:84 - pickDate->Display Month and Year Functionality:
-2016-09-15 15:20:26 INFO  TestScriptSimpleElements:100 - pickDate->Format Date Functionality:
-2016-09-15 15:20:27 INFO  TestScriptSimpleElements:27 - clickDynamicButton functionality started:
-2016-09-15 15:20:28 INFO  TestScriptSimpleElements:34 - clickDynamicButton->Starts With Functionality:
-2016-09-15 15:20:31 INFO  TestScriptSimpleElements:46 - clickDynamicButton->Ends With Functionality:
-2016-09-15 15:20:32 INFO  TestScriptSimpleElements:58 - clickDynamicButton->Complete ID Dynamic Functionality:
-2016-09-15 15:20:34 INFO  TestScriptSimpleElements:35 - Select->Default Functionality:
-2016-09-15 15:20:36 INFO  TestScriptSimpleElements:42 - Select->Display as grid:
-2016-09-15 15:20:38 INFO  TestScriptSimpleElements:50 - Select->Serialize:
-2016-09-15 15:20:45 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:20:45 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-15 15:21:55 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:21:55 INFO  TestScriptSimpleElements:22 - Alert functionality started:
-2016-09-15 15:22:10 INFO  TestScriptSimpleElements:26 - alertFunction->simple Alert Functionality:
-2016-09-15 15:22:13 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
-2016-09-15 15:22:14 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:22:14 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-15 15:35:57 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:35:57 INFO  TestScriptSimpleElements:22 - Alert functionality started:
-2016-09-15 15:36:10 INFO  TestScriptSimpleElements:26 - alertFunction->simple Alert Functionality:
-2016-09-15 15:36:12 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
-2016-09-15 15:36:14 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:36:14 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-15 15:40:09 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:40:09 INFO  TestScriptSimpleElements:22 - Alert functionality started:
-2016-09-15 15:40:25 INFO  TestScriptSimpleElements:26 - alertFunction->simple Alert Functionality:
-2016-09-15 15:40:27 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
-2016-09-15 15:40:29 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:40:29 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-15 15:42:27 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:42:27 INFO  TestScriptSimpleElements:22 - Alert functionality started:
-2016-09-15 15:42:46 INFO  TestScriptSimpleElements:26 - alertFunction->simple Alert Functionality:
-2016-09-15 15:42:48 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
-2016-09-15 15:42:50 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:42:50 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-15 15:44:46 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:44:46 INFO  TestScriptSimpleElements:22 - Alert functionality started:
-2016-09-15 15:45:01 INFO  TestScriptSimpleElements:26 - alertFunction->simple Alert Functionality:
-2016-09-15 15:45:04 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
-2016-09-15 15:45:06 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:45:06 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-15 15:48:10 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:48:10 INFO  TestScriptSimpleElements:22 - Alert functionality started:
-2016-09-15 15:48:26 INFO  TestScriptSimpleElements:26 - alertFunction->simple Alert Functionality:
-2016-09-15 15:48:28 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
-2016-09-15 15:48:30 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 15:48:30 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-15 15:59:49 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 15:59:49 INFO  TestScriptSimpleElements:22 - Alert functionality started:
-2016-09-15 16:00:04 INFO  TestScriptSimpleElements:26 - alertFunction->simple Alert Functionality:
-2016-09-15 16:00:06 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
-2016-09-15 16:00:08 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 16:00:08 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-15 16:03:03 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 16:03:03 INFO  TestScriptSimpleElements:22 - Alert functionality started:
-2016-09-15 16:03:18 INFO  TestScriptSimpleElements:26 - alertFunction->simple Alert Functionality:
-2016-09-15 16:03:20 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
-2016-09-15 16:03:22 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 16:03:22 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-15 16:06:08 INFO  TestScriptSimpleElements:20 - Application is up and running
-2016-09-15 16:06:08 INFO  TestScriptSimpleElements:22 - Alert functionality started:
-2016-09-15 16:06:22 INFO  TestScriptSimpleElements:26 - alertFunction->simple Alert Functionality:
-2016-09-15 16:06:24 INFO  TestScriptSimpleElements:45 - alertFunction->simple Alert Functionality:
-2016-09-15 16:06:27 INFO  TestScriptSimpleElements:40 - Application is closing the browsers
-2016-09-15 16:06:27 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
-2016-09-16 14:28:31 INFO  TestScriptSimpleElements:21 - Application is up and running
-2016-09-16 14:28:47 INFO  TestScriptSimpleElements:48 - pickDate->Default Functionality:
-2016-09-16 14:28:51 INFO  TestScriptSimpleElements:61 - pickDate->Animation Functionality:
-2016-09-16 14:28:55 INFO  TestScriptSimpleElements:84 - pickDate->Display Month and Year Functionality:
-2016-09-16 14:28:59 INFO  TestScriptSimpleElements:100 - pickDate->Format Date Functionality:
-2016-09-16 14:29:00 INFO  TestScriptSimpleElements:27 - clickDynamicButton functionality started:
-2016-09-16 14:29:01 INFO  TestScriptSimpleElements:34 - clickDynamicButton->Starts With Functionality:
-2016-09-16 14:29:06 INFO  TestScriptSimpleElements:46 - clickDynamicButton->Ends With Functionality:
-2016-09-16 14:29:08 INFO  TestScriptSimpleElements:58 - clickDynamicButton->Complete ID Dynamic Functionality:
-2016-09-16 14:29:11 INFO  TestScriptSimpleElements:35 - Select->Default Functionality:
-2016-09-16 14:29:14 INFO  TestScriptSimpleElements:42 - Select->Display as grid:
-2016-09-16 14:29:16 INFO  TestScriptSimpleElements:50 - Select->Serialize:
-2016-09-16 14:29:23 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
-2016-09-16 14:29:23 INFO  TestScriptSimpleElements:50 - Inside Init sendMail function
+2016-09-17 13:28:41 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 13:28:56 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 13:29:00 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 13:29:01 INFO  TestScriptSimpleElements:33 - clickDynamicButton functionality started:
+2016-09-17 13:29:02 INFO  TestScriptSimpleElements:40 - clickDynamicButton->Starts With Functionality:
+2016-09-17 13:29:04 INFO  TestScriptSimpleElements:52 - clickDynamicButton->Ends With Functionality:
+2016-09-17 13:29:06 INFO  TestScriptSimpleElements:64 - clickDynamicButton->Complete ID Dynamic Functionality:
+2016-09-17 13:29:07 INFO  TestScriptSimpleElements:71 - clickDynamicButton functionality completed:
+2016-09-17 13:29:08 INFO  TestScriptSimpleElements:39 - Select->Default Functionality:
+2016-09-17 13:29:10 INFO  TestScriptSimpleElements:46 - Select->Display as grid:
+2016-09-17 13:29:12 INFO  TestScriptSimpleElements:54 - Select->Serialize:
+2016-09-17 13:29:13 INFO  TestScriptSimpleElements:28 - ToolTip Functionality started:
+2016-09-17 13:29:18 INFO  TestScriptSimpleElements:61 - ToolTip Functionality completed:
+2016-09-17 13:29:19 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 13:29:19 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 13:31:26 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 13:31:42 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 13:31:45 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 13:31:47 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 13:31:47 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 13:34:12 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 13:34:29 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 13:34:33 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 13:34:34 INFO  TestScriptSimpleElements:116 - [Ljava.lang.StackTraceElement;@2bb3058
+2016-09-17 13:34:35 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 13:34:35 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 13:40:50 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 13:41:09 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 13:41:12 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 13:41:14 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 13:41:14 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 13:59:43 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 14:00:01 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 14:00:04 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 14:00:06 INFO  TestScriptSimpleElements:124 - [Ljava.lang.StackTraceElement;@7a1a14a4
+2016-09-17 14:00:07 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 14:00:07 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 14:12:15 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 14:12:30 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 14:12:34 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 14:12:37 INFO  TestScriptSimpleElements:127 - [Ljava.lang.StackTraceElement;@265adfad
+2016-09-17 14:12:37 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 14:12:37 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 14:23:07 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 14:23:23 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 14:23:26 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 14:23:28 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 14:23:29 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 14:23:29 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 14:28:59 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 14:29:15 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 14:29:18 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 14:29:20 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 14:29:21 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 14:29:21 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 14:35:13 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 14:35:29 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 14:35:34 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 14:35:36 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 14:35:36 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 14:35:36 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 14:42:10 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 14:42:27 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 14:42:31 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 14:42:33 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 14:42:34 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 14:42:34 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 14:46:36 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 14:46:51 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 14:46:54 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 14:46:56 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 14:46:57 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 14:46:57 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 14:50:38 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 14:50:53 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 14:50:58 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 14:51:01 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 14:51:03 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 14:51:03 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 14:54:38 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 14:54:53 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 14:54:57 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 14:55:00 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 14:55:00 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 14:55:00 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 15:02:44 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 15:02:58 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 15:03:02 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 15:03:04 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 15:03:05 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 15:03:05 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 15:10:03 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 15:10:19 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 15:10:25 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 15:10:27 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 15:10:27 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 15:10:27 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 15:35:38 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 15:35:55 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 15:35:59 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 15:36:02 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 15:36:03 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 15:36:03 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 15:43:10 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 15:43:27 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 15:43:34 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 15:43:36 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 15:43:37 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 15:43:37 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 15:46:12 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 15:46:14 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 15:46:18 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 15:46:20 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 15:46:20 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 15:46:20 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 15:49:32 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 15:49:48 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 15:49:51 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 15:49:53 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 15:49:54 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 15:49:54 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 16:06:20 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 16:06:38 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 16:06:42 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 16:06:44 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 16:06:45 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 16:06:45 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-17 16:10:29 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-17 16:10:45 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-17 16:10:48 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-17 16:10:50 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"ui-datepicker"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-17 16:10:50 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-17 16:10:50 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function

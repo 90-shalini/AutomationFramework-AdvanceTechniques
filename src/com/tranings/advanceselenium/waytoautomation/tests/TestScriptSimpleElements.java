@@ -19,24 +19,24 @@ public class TestScriptSimpleElements extends TestConfigurations {
 	}
 
 
-	@Test
-	public void testSelectables(){
-		Selectable selectItem = new Selectable();
-		selectItem.Select(driver,logger);	
-	}
-
-
-	@Test
-	public void testDynamicElements(){
-		DynamicElements de = new DynamicElements();
-		de.clickDynamicButton(driver,logger);
-	}
-
-	@Test
-	public void testToolTip(){
-		ToolTip tt = new ToolTip();
-		tt.tooltipFunctionality(driver,logger);
-	}
+//	@Test
+//	public void testSelectables(){
+//		Selectable selectItem = new Selectable();
+//		selectItem.Select(driver,logger);	
+//	}
+//
+//
+//	@Test
+//	public void testDynamicElements(){
+//		DynamicElements de = new DynamicElements();
+//		de.clickDynamicButton(driver,logger);
+//	}
+//
+//	@Test
+//	public void testToolTip(){
+//		ToolTip tt = new ToolTip();
+//		tt.tooltipFunctionality(driver,logger);
+//	}
 
 
 

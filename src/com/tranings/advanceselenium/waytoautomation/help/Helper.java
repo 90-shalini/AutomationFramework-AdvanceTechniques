@@ -3,6 +3,9 @@ package com.tranings.advanceselenium.waytoautomation.help;
 import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 
@@ -28,7 +31,10 @@ public class Helper {
 			//Perform login functionality
 			LoginPage login = new LoginPage();
 			login.SignUp(driver, name, password,logger);
-		}catch(WebDriverException wde){
+		}catch(NoSuchElementException|ElementNotVisibleException|TimeoutException e){
+			logger.error(e.getMessage());
+		}
+		catch(WebDriverException wde){
 			logger.error(wde.getMessage());
 		}
 

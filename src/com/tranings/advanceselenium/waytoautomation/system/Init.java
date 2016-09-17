@@ -46,7 +46,7 @@ public class Init {
 	
 	public void sendMail(Logger logger){
 		logger.info("Inside Init sendMail function");
-		Mailer.sendReportByGMail();
+		Mailer.sendReportByGMail(logger);
 		//report.flush();
 	}
 	public void closeBrowser(WebDriver driver,Logger logger){	

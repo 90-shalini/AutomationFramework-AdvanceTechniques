@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Way To Automation Simple Techniques"
-           tests="4"
+           tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="44.754">
+           time="20.947">
   <properties />
   
   
-            <testcase name="testDynamicElements" time="6.038" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
-                <testcase name="testSelectables" time="5.803" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
-                <testcase name="testDatePicker" time="27.686" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
-                <testcase name="testToolTip" time="5.227" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
+            <testcase name="testDatePicker" time="20.947" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
       
 </testsuite>

@@ -2,8 +2,11 @@ package com.tranings.advanceselenium.waytoautomation.pages;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 
 import com.tranings.advanceselenium.waytoautomation.library.Utils;
 
@@ -38,9 +41,11 @@ public class DemoSite {
 		try{
 		util.minWaitForElement(driver, element);
 		driver.findElement(element).click();
-		}catch(TimeoutException  te){
+		}catch(NoSuchElementException|ElementNotVisibleException|TimeoutException  te){
 			logger.error(te.getMessage());
 			
+		}catch(WebDriverException wde){
+			logger.error(wde.getMessage());
 		}
 	}
 	
