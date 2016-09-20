@@ -1,0 +1,14 @@
+2016-09-20 07:27:56 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-20 07:28:13 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-20 07:28:19 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-20 07:28:23 INFO  TestScriptSimpleElements:93 - pickDate->Display Month and Year Functionality:
+2016-09-20 07:28:26 INFO  TestScriptSimpleElements:109 - pickDate->Format Date Functionality:
+2016-09-20 07:28:28 INFO  TestScriptSimpleElements:117 - DatePicker Functionality completed:
+2016-09-20 07:28:28 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-20 07:28:28 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-20 07:29:42 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-20 07:29:57 INFO  TestScriptAdvanceElements:27 - Alert functionality started:
+2016-09-20 07:29:58 INFO  TestScriptAdvanceElements:31 - alertFunction->simple Alert Functionality:
+2016-09-20 07:30:00 INFO  TestScriptAdvanceElements:50 - alertFunction->simple Alert Functionality:
+2016-09-20 07:30:02 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-20 07:30:02 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function

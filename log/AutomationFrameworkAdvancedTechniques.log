@@ -1,0 +1,31 @@
+2016-09-20 07:17:41 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-20 07:17:56 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-20 07:18:01 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-20 07:18:07 INFO  TestScriptSimpleElements:93 - pickDate->Display Month and Year Functionality:
+2016-09-20 07:18:09 INFO  TestScriptSimpleElements:123 - org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"ui-datepicker-month"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'HomeLaptop-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-09-20 07:18:10 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-20 07:18:10 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-20 07:19:22 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-20 07:19:36 INFO  TestScriptAdvanceElements:27 - Alert functionality started:
+2016-09-20 07:19:37 INFO  TestScriptAdvanceElements:31 - alertFunction->simple Alert Functionality:
+2016-09-20 07:19:40 INFO  TestScriptAdvanceElements:50 - alertFunction->simple Alert Functionality:
+2016-09-20 07:19:42 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-20 07:19:42 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-20 07:27:56 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-20 07:28:13 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-20 07:28:19 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-20 07:28:23 INFO  TestScriptSimpleElements:93 - pickDate->Display Month and Year Functionality:
+2016-09-20 07:28:26 INFO  TestScriptSimpleElements:109 - pickDate->Format Date Functionality:
+2016-09-20 07:28:28 INFO  TestScriptSimpleElements:117 - DatePicker Functionality completed:
+2016-09-20 07:28:28 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-20 07:28:28 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-20 07:29:42 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-20 07:29:57 INFO  TestScriptAdvanceElements:27 - Alert functionality started:
+2016-09-20 07:29:58 INFO  TestScriptAdvanceElements:31 - alertFunction->simple Alert Functionality:
+2016-09-20 07:30:00 INFO  TestScriptAdvanceElements:50 - alertFunction->simple Alert Functionality:
+2016-09-20 07:30:02 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-20 07:30:02 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
