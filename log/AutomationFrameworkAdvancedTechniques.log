@@ -29,3 +29,11 @@ Driver info: driver.version: unknown
 2016-09-20 07:30:00 INFO  TestScriptAdvanceElements:50 - alertFunction->simple Alert Functionality:
 2016-09-20 07:30:02 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
 2016-09-20 07:30:02 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-22 22:23:48 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-22 22:24:06 INFO  TestScriptSimpleElements:51 - pickDate->Default Functionality started:
+2016-09-22 22:24:10 INFO  TestScriptSimpleElements:64 - pickDate->Animation Functionality:
+2016-09-22 22:24:15 INFO  TestScriptSimpleElements:93 - pickDate->Display Month and Year Functionality:
+2016-09-22 22:24:18 INFO  TestScriptSimpleElements:109 - pickDate->Format Date Functionality:
+2016-09-22 22:24:19 INFO  TestScriptSimpleElements:117 - DatePicker Functionality completed:
+2016-09-22 22:24:20 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-22 22:24:21 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function

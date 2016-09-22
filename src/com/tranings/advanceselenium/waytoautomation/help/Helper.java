@@ -26,8 +26,20 @@ public class Helper {
 			DemoSite demo = new DemoSite();
 			demo.clickTestingElement(driver,demo.Selectable,logger );
 			windows = new ArrayList<String> (driver.getWindowHandles());
-			driver.switchTo().window(windows.get(2));
-			driver.manage().window().maximize();	
+			System.out.println(driver.getTitle());
+			for(String w:windows){
+			if(driver.switchTo().window(w).getTitle().contains("Welcome to the Test Site")){
+				System.out.println("on 2nd window");
+//				driver.switchTo().window(windows.get(2));
+				driver.manage().window().maximize();
+				}
+			else{
+				driver.switchTo().window(driver.getWindowHandle());
+			
+			}
+	
+			}
+			
 			//Perform login functionality
 			LoginPage login = new LoginPage();
 			login.SignUp(driver, name, password,logger);
