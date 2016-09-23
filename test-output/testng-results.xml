@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Way To Automation Simple WebElemnets Suite" duration-ms="103592" started-at="2016-09-20T01:56:45Z" finished-at="2016-09-20T01:58:28Z">
+  <suite name="Way To Automation Simple WebElemnets Suite" duration-ms="133257" started-at="2016-09-22T16:52:07Z" finished-at="2016-09-22T16:54:20Z">
     <groups>
     </groups>
-    <test name="Way To Automation Simple Techniques" duration-ms="103592" started-at="2016-09-20T01:56:45Z" finished-at="2016-09-20T01:58:28Z">
+    <test name="Way To Automation Simple Techniques" duration-ms="133257" started-at="2016-09-22T16:52:07Z" finished-at="2016-09-22T16:54:20Z">
       <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements">
-        <test-method status="PASS" signature="testDatePicker()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@7b69c6ba]" name="testDatePicker" duration-ms="32046" started-at="2016-09-20T07:27:56Z" finished-at="2016-09-20T07:28:28Z">
+        <test-method status="PASS" signature="testDatePicker()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements@7b69c6ba]" name="testDatePicker" duration-ms="31796" started-at="2016-09-22T22:23:48Z" finished-at="2016-09-22T22:24:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDatePicker -->
       </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements -->
       <class name="com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@44c8afef]" name="initialize" is-config="true" duration-ms="70855" started-at="2016-09-20T07:26:45Z" finished-at="2016-09-20T07:27:56Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@44c8afef]" name="initialize" is-config="true" duration-ms="100652" started-at="2016-09-22T22:22:07Z" finished-at="2016-09-22T22:23:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="closeProject()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@44c8afef]" name="closeProject" is-config="true" duration-ms="663" started-at="2016-09-20T07:28:28Z" finished-at="2016-09-20T07:28:28Z">
+        <test-method status="PASS" signature="closeProject()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@44c8afef]" name="closeProject" is-config="true" duration-ms="740" started-at="2016-09-22T22:24:19Z" finished-at="2016-09-22T22:24:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeProject -->
-        <test-method status="PASS" signature="sendMail()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@44c8afef]" name="sendMail" is-config="true" duration-ms="2335" started-at="2016-09-20T07:28:28Z" finished-at="2016-09-20T07:28:31Z">
+        <test-method status="PASS" signature="sendMail()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@44c8afef]" name="sendMail" is-config="true" duration-ms="6986" started-at="2016-09-22T22:24:21Z" finished-at="2016-09-22T22:24:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMail -->
       </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations -->
     </test> <!-- Way To Automation Simple Techniques -->
   </suite> <!-- Way To Automation Simple WebElemnets Suite -->
-  <suite name="Way To Automation Suite" duration-ms="0" started-at="2016-09-20T02:00:05Z" finished-at="2016-09-20T02:00:05Z">
+  <suite name="Way To Automation Suite" duration-ms="0" started-at="2016-09-22T16:56:06Z" finished-at="2016-09-22T16:56:06Z">
     <groups>
     </groups>
   </suite> <!-- Way To Automation Suite -->
-  <suite name="Way To Automation Advanced WebElemnets Suite" duration-ms="91334" started-at="2016-09-20T01:58:31Z" finished-at="2016-09-20T02:00:02Z">
+  <suite name="Way To Automation Advanced WebElemnets Suite" duration-ms="95299" started-at="2016-09-22T16:54:28Z" finished-at="2016-09-22T16:56:03Z">
     <groups>
     </groups>
-    <test name="Way To Automation Advanced Techniques" duration-ms="91334" started-at="2016-09-20T01:58:31Z" finished-at="2016-09-20T02:00:02Z">
+    <test name="Way To Automation Advanced Techniques" duration-ms="95299" started-at="2016-09-22T16:54:28Z" finished-at="2016-09-22T16:56:03Z">
       <class name="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements">
-        <test-method status="PASS" signature="testAlert()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements@491cc5c9]" name="testAlert" duration-ms="19401" started-at="2016-09-20T07:29:42Z" finished-at="2016-09-20T07:30:02Z">
+        <test-method status="PASS" signature="testAlert()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements@491cc5c9]" name="testAlert" duration-ms="18563" started-at="2016-09-22T22:25:44Z" finished-at="2016-09-22T22:26:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAlert -->
       </class> <!-- com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements -->
       <class name="com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@1b26f7b2]" name="initialize" is-config="true" duration-ms="71336" started-at="2016-09-20T07:28:31Z" finished-at="2016-09-20T07:29:42Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@1b26f7b2]" name="initialize" is-config="true" duration-ms="76147" started-at="2016-09-22T22:24:28Z" finished-at="2016-09-22T22:25:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="closeProject()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@1b26f7b2]" name="closeProject" is-config="true" duration-ms="593" started-at="2016-09-20T07:30:02Z" finished-at="2016-09-20T07:30:02Z">
+        <test-method status="PASS" signature="closeProject()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@1b26f7b2]" name="closeProject" is-config="true" duration-ms="587" started-at="2016-09-22T22:26:02Z" finished-at="2016-09-22T22:26:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeProject -->
-        <test-method status="PASS" signature="sendMail()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@1b26f7b2]" name="sendMail" is-config="true" duration-ms="2897" started-at="2016-09-20T07:30:02Z" finished-at="2016-09-20T07:30:05Z">
+        <test-method status="PASS" signature="sendMail()[pri:0, instance:com.tranings.advanceselenium.waytoautomation.tests.TestConfigurations@1b26f7b2]" name="sendMail" is-config="true" duration-ms="2368" started-at="2016-09-22T22:26:03Z" finished-at="2016-09-22T22:26:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMail -->

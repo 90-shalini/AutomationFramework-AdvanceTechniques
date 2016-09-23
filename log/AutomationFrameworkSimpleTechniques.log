@@ -20,3 +20,9 @@
 2016-09-22 22:24:19 INFO  TestScriptSimpleElements:117 - DatePicker Functionality completed:
 2016-09-22 22:24:20 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
 2016-09-22 22:24:21 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function
+2016-09-22 22:25:44 INFO  TestScriptSimpleElements:21 - Application is up and running
+2016-09-22 22:25:45 INFO  TestScriptAdvanceElements:27 - Alert functionality started:
+2016-09-22 22:25:59 INFO  TestScriptAdvanceElements:31 - alertFunction->simple Alert Functionality:
+2016-09-22 22:26:01 INFO  TestScriptAdvanceElements:50 - alertFunction->simple Alert Functionality:
+2016-09-22 22:26:03 INFO  TestScriptSimpleElements:32 - Application is closing the browsers
+2016-09-22 22:26:03 INFO  TestScriptSimpleElements:48 - Inside Init sendMail function

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="19.401">
+           time="18.563">
   <properties />
   
   
-            <testcase name="testAlert" time="19.401" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements" />
+            <testcase name="testAlert" time="18.563" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements" />
       
 </testsuite>
