@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="31.796">
+           time="46.290">
   <properties />
   
   
-            <testcase name="testDatePicker" time="31.796" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
+            <testcase name="testDatePicker" time="46.290" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptSimpleElements" />
       
 </testsuite>

@@ -2,6 +2,8 @@ package com.tranings.advanceselenium.waytoautomation.tests;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
+
+import com.tranings.advanceselenium.waytoautomation.pages.ActionInteraction;
 import com.tranings.advanceselenium.waytoautomation.pages.Alerts;
 
 public class TestScriptAdvanceElements extends TestConfigurations {
@@ -11,5 +13,11 @@ public class TestScriptAdvanceElements extends TestConfigurations {
 	public void testAlert(){
 		Alerts al = new Alerts();
 		al.alertFunction(driver,logger);
+	}
+	
+	@Test
+	public void testDraggable(){
+		ActionInteraction ai = new ActionInteraction();
+		ai.dragDrop(driver,logger);
 	}
 }

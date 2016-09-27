@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Way To Automation Advanced Techniques"
-           tests="1"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="18.563">
+           time="39.319">
   <properties />
   
   
-            <testcase name="testAlert" time="18.563" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements" />
+            <testcase name="testDraggable" time="16.084" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements" />
+                <testcase name="testAlert" time="23.235" classname="com.tranings.advanceselenium.waytoautomation.tests.TestScriptAdvanceElements" />
       
 </testsuite>
